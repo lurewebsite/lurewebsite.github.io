@@ -80,7 +80,7 @@ p{
 /* --------------------------*/
 
 header {
-    background-image: url(img/hero.png);
+    background-image: url(../img/hero.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -192,8 +192,6 @@ iframe {
 .footer-box li {
     list-style: none;
     display: inline;
-    float: left;
-    margin-right: 10%;
 }
 
 footer {
@@ -203,7 +201,6 @@ footer {
 }
 
 .social-links {
-    margin-left: 42%;
     margin-top: 20px;
     text-align: center;
 }
@@ -239,41 +236,3 @@ footer {
 .ion-social-instagram:hover {
     color: #517fa4;
 }
-
-
-
-/* DELTED
-
-/*
-.main-nav {
-    list-style: none;
-    margin-top: 60px;
-
-}
-
-.main-nav li{
-    display: inline-block;
-    float: left;
-    margin-left: 60px;
-    letter-spacing: 1px;
-
-}
-
-.main-nav li a:link,
-.main-nav li a:visited {
-    padding: 8px 0;
-    color: #4a4646;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 90%;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
-    word-spacing: 10px;
-}
-
-.main-nav li a:hover,
-.main-nav li a:active {
-    border-bottom: 2px solid #e66622;
-}
- */
